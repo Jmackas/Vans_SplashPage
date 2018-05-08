@@ -1,7 +1,3 @@
-/* Font import */
-@font-face{font-family:ff-meta-serif-web-pro;src:url(https://use.typekit.net/af/8f5dd7/00000000000000003b9b06f3/27/l?subset_id=2&fvd=i5&v=3) format("woff2"),url(https://use.typekit.net/af/8f5dd7/00000000000000003b9b06f3/27/d?subset_id=2&fvd=i5&v=3) format("woff"),url(https://use.typekit.net/af/8f5dd7/00000000000000003b9b06f3/27/a?subset_id=2&fvd=i5&v=3) format("opentype");font-weight:500;font-style:italic;}@font-face{font-family:brandon-grotesque;src:url(https://use.typekit.net/af/62b3d3/0000000000000000000132dd/27/l?subset_id=2&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/62b3d3/0000000000000000000132dd/27/d?subset_id=2&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/62b3d3/0000000000000000000132dd/27/a?subset_id=2&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;}@font-face{font-family:brandon-grotesque;src:url(https://use.typekit.net/af/39f077/0000000000000000000132df/27/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/39f077/0000000000000000000132df/27/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/39f077/0000000000000000000132df/27/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:brandon-grotesque;src:url(https://use.typekit.net/af/f53752/0000000000000000000132e1/27/l?subset_id=2&fvd=n5&v=3) format("woff2"),url(https://use.typekit.net/af/f53752/0000000000000000000132e1/27/d?subset_id=2&fvd=n5&v=3) format("woff"),url(https://use.typekit.net/af/f53752/0000000000000000000132e1/27/a?subset_id=2&fvd=n5&v=3) format("opentype");font-weight:500;font-style:normal;}@font-face{font-family:brandon-grotesque;src:url(https://use.typekit.net/af/e4603e/0000000000000000000132e3/27/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/e4603e/0000000000000000000132e3/27/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/e4603e/0000000000000000000132e3/27/a?subset_id=2&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:brandon-grotesque;src:url(https://use.typekit.net/af/6c39dc/0000000000000000000132de/27/l?subset_id=2&fvd=i3&v=3) format("woff2"),url(https://use.typekit.net/af/6c39dc/0000000000000000000132de/27/d?subset_id=2&fvd=i3&v=3) format("woff"),url(https://use.typekit.net/af/6c39dc/0000000000000000000132de/27/a?subset_id=2&fvd=i3&v=3) format("opentype");font-weight:300;font-style:italic;}@font-face{font-family:brandon-grotesque;src:url(https://use.typekit.net/af/3da224/0000000000000000000132e0/27/l?subset_id=2&fvd=i4&v=3) format("woff2"),url(https://use.typekit.net/af/3da224/0000000000000000000132e0/27/d?subset_id=2&fvd=i4&v=3) format("woff"),url(https://use.typekit.net/af/3da224/0000000000000000000132e0/27/a?subset_id=2&fvd=i4&v=3) format("opentype");font-weight:400;font-style:italic;}@font-face{font-family:brandon-grotesque;src:url(https://use.typekit.net/af/a71195/0000000000000000000132e2/27/l?subset_id=2&fvd=i5&v=3) format("woff2"),url(https://use.typekit.net/af/a71195/0000000000000000000132e2/27/d?subset_id=2&fvd=i5&v=3) format("woff"),url(https://use.typekit.net/af/a71195/0000000000000000000132e2/27/a?subset_id=2&fvd=i5&v=3) format("opentype");font-weight:500;font-style:italic;}@font-face{font-family:brandon-grotesque;src:url(https://use.typekit.net/af/35c51c/0000000000000000000132e4/27/l?subset_id=2&fvd=i7&v=3) format("woff2"),url(https://use.typekit.net/af/35c51c/0000000000000000000132e4/27/d?subset_id=2&fvd=i7&v=3) format("woff"),url(https://use.typekit.net/af/35c51c/0000000000000000000132e4/27/a?subset_id=2&fvd=i7&v=3) format("opentype");font-weight:700;font-style:italic;}
-
-
 /*===================================
 Universal
 ===================================*/
@@ -9,11 +5,81 @@ body {
   font-family: brandon-grotesque,"PT Serif",Georgia,serif;
 }
 
-
 /*===================================
 Header
 ===================================*/
 /* Header logo */
 header img {
   width: 250px
+}
+
+
+
+
+
+/*===================================
+Miscellaneous Code
+===================================*/
+/* Font import */
+@font-face {
+  font-family: ff-meta-serif-web-pro;
+  src: url(https://use.typekit.net/af/8f5dd7/00000000000000003b9b06f3/27/l?subset_id=2&fvd=i5&v=3) format("woff2"),url(https://use.typekit.net/af/8f5dd7/00000000000000003b9b06f3/27/d?subset_id=2&fvd=i5&v=3) format("woff"),url(https://use.typekit.net/af/8f5dd7/00000000000000003b9b06f3/27/a?subset_id=2&fvd=i5&v=3) format("opentype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: brandon-grotesque;
+  src: url(https://use.typekit.net/af/62b3d3/0000000000000000000132dd/27/l?subset_id=2&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/62b3d3/0000000000000000000132dd/27/d?subset_id=2&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/62b3d3/0000000000000000000132dd/27/a?subset_id=2&fvd=n3&v=3) format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: brandon-grotesque;
+  src: url(https://use.typekit.net/af/39f077/0000000000000000000132df/27/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/39f077/0000000000000000000132df/27/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/39f077/0000000000000000000132df/27/a?subset_id=2&fvd=n4&v=3) format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: brandon-grotesque;
+  src: url(https://use.typekit.net/af/f53752/0000000000000000000132e1/27/l?subset_id=2&fvd=n5&v=3) format("woff2"),url(https://use.typekit.net/af/f53752/0000000000000000000132e1/27/d?subset_id=2&fvd=n5&v=3) format("woff"),url(https://use.typekit.net/af/f53752/0000000000000000000132e1/27/a?subset_id=2&fvd=n5&v=3) format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: brandon-grotesque;
+  src: url(https://use.typekit.net/af/e4603e/0000000000000000000132e3/27/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/e4603e/0000000000000000000132e3/27/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/e4603e/0000000000000000000132e3/27/a?subset_id=2&fvd=n7&v=3) format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: brandon-grotesque;
+  src: url(https://use.typekit.net/af/6c39dc/0000000000000000000132de/27/l?subset_id=2&fvd=i3&v=3) format("woff2"),url(https://use.typekit.net/af/6c39dc/0000000000000000000132de/27/d?subset_id=2&fvd=i3&v=3) format("woff"),url(https://use.typekit.net/af/6c39dc/0000000000000000000132de/27/a?subset_id=2&fvd=i3&v=3) format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: brandon-grotesque;
+  src: url(https://use.typekit.net/af/3da224/0000000000000000000132e0/27/l?subset_id=2&fvd=i4&v=3) format("woff2"),url(https://use.typekit.net/af/3da224/0000000000000000000132e0/27/d?subset_id=2&fvd=i4&v=3) format("woff"),url(https://use.typekit.net/af/3da224/0000000000000000000132e0/27/a?subset_id=2&fvd=i4&v=3) format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: brandon-grotesque;
+  src: url(https://use.typekit.net/af/a71195/0000000000000000000132e2/27/l?subset_id=2&fvd=i5&v=3) format("woff2"),url(https://use.typekit.net/af/a71195/0000000000000000000132e2/27/d?subset_id=2&fvd=i5&v=3) format("woff"),url(https://use.typekit.net/af/a71195/0000000000000000000132e2/27/a?subset_id=2&fvd=i5&v=3) format("opentype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: brandon-grotesque;
+  src: url(https://use.typekit.net/af/35c51c/0000000000000000000132e4/27/l?subset_id=2&fvd=i7&v=3) format("woff2"),url(https://use.typekit.net/af/35c51c/0000000000000000000132e4/27/d?subset_id=2&fvd=i7&v=3) format("woff"),url(https://use.typekit.net/af/35c51c/0000000000000000000132e4/27/a?subset_id=2&fvd=i7&v=3) format("opentype");
+  font-weight: 700;
+  font-style: italic;
 }
