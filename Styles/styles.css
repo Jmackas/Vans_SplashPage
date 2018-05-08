@@ -21,7 +21,9 @@ Login Module
 /* The login module container */
 .login_module {
   background-image: url("https://static1.squarespace.com/static/56499c6be4b0619780d102f3/t/5652b81de4b0328b44d22099/1448261663619/Vans-122.jpg");
+  padding: 1% 10%;
 }
+
 
 
 
